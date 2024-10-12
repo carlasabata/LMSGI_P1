@@ -1,6 +1,17 @@
+body {
+	font-family: Verdana;
+}
+
 h1 {
 	color: darkgreen;
 	font-weight: bold;
+	text-align: center;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: auto;
 	text-align: center;
 }
 
@@ -11,49 +22,55 @@ caption {
 
 th {
 	background-color: lightblue;
-	text-align: center;
 	font-weight: bold;
 	width: 100px;
-}
-
-table {
-	border: 1px solid black;
-	border-collapse: collapse;
-	margin: auto;
+	padding: 30px;
+	font-size: 25px;
 }
 
 td, th {
 	border: 1px solid black;
 }
 
-#lm {
+.lm {
 	background-color:rgb(175, 117, 228);
 }
 
-#ped {
+.ped {
 	background-color:rgb(17, 225, 58);
 }
 
-#bd {
+.bd {
 	background-color:rgb(223, 214, 32);
 }
 
-#diw {
+.diw {
 	background-color:rgb(220, 76, 186);
 }
 
-#tut {
+.tut {
 	background-color:rgb(149, 146, 151);
 }
 
-#ipoi {
+.ipoi {
 	background-color:rgb(231, 164, 88);
 }
 
-#an {
+.an {
 	background-color:rgb(97, 85, 222);
 }
 
-#si {
+.si {
 	background-color:rgb(213, 94, 94);
+}
+
+#descans {
+	font-size: 20px;
+	padding: 15px;
+}
+
+.hores {
+	font-size: 20px;
+	padding: 10px;
+	width: 180px;
 }
